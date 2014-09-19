@@ -1,7 +1,11 @@
 Getting-and-Cleaning-Data
 =========================
 
-The provided script first downloads the 8 data tables below from the working directory.  
+
+The provided script first downloads the 8 data tables below from the working directory.
+Analysis of unique subjects and their activities are conducted by combining the test data with the train data.
+
+Below are the numbered file paths: 
 1. "features.txt"
 2. "train\\X_train.txt"
 3. "train\\Y_train.txt"
@@ -11,6 +15,7 @@ The provided script first downloads the 8 data tables below from the working dir
 7. "test\\subject_test.txt"
 8.  "activity_labels.txt"
 
+Data transformation steps:
 
 The data are combined with cbind (2+4+3) and (5+7+6) and then rbind(ed) together.
 
